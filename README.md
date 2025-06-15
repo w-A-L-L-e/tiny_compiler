@@ -77,3 +77,18 @@ chmod 755 output
 ./output
 make: *** [Makefile:19: run] Error 22
 ```
+
+This is cool and all but its far from turing complete. And it seems whenever you try to add more complexity here it
+just gets worse and worse even with the latest chat gpt. Whenever I tried to fix bugs or add new features (like else part of if / else statements)
+it broke other parts and started heavily hallucinating solutions.
+
+So it's cool that chat gpt can generate like 90% good code which saves a lot of typing and looking up trivial stuff with google.
+But on the other hand I wrote a far more complete and
+fully turing complete functional version of my own decades ago https://github.com/w-A-L-L-e/wsbasic.
+Here I did have some background but the actual initial implemantation of wsbasic took me only 1 or 2 weekends. Ofcourse
+I did have about 4 years experience writing parsers for my PhD back then.
+
+I'm pretty sure I can now make the C version of such a recursive descent parser + compiler faster using chat gpt. However
+It's also pretty clear someone without inital compiler knowledge will never get this working by just prompting and 'vibe coding' it.
+
+Which might be good news I guesse. It's gonna be a while before real programmers are obsolete ;)
