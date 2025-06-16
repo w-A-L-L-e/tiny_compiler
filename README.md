@@ -136,16 +136,23 @@ some more prompting:
 ## Conclusion for me in 2025:
 
 AI code generation got better but it's still a decade or more IMHO
-before we can truly replace some programmers entirely (and more likely even longer away before it can truly replace us).
+before we can truly replace some programmers entirely (and more likely even longer away before it can truly replace
+a senior programmer).
 It's nowhere near as good or dangerous as the current AI hype and marketing on youtube is wanting
 to make it look to sell more subscriptions.
 
 Sure it can refactor and save you some typing for trivial cases. But it still lacks the deeper understanding
-and reasoning that humans have when writing and improving code.
+and reasoning that humans have when writing and improving code. Even if you get to market there's going
+to be issues that in order to fix you'll either need to hire someone to read/review your entire codebase and then
+fix + continue all the work done. Most likely this will only happen after months of prompting and GPT like subscriptions
+being paid only to realise you probable would have gotten to the finish just as fast when hiring a proper developer from the get go.
 
 It's a bit like the no-code hypes we already had 20 years ago like dreamweaver and mulesoft. It gets you up
 and running to 80% quickly but after that you better understand everything it generated to be able to get to the
 finish line. What's better this time around is you'll end up with some code you can further improve and
 extend yourself. In the past with the other no-code solutions most of the time the generated code was either all locked
-down/proprietary or it was garbage to continue working in. So in that sence it does indeed improve your productivity
-but just not letting people study computer science or eliminating all human programming is imho currently still a marketing joke...
+down/hidden or totally ugly code you wouldn't want to continue working in.
+
+So in that sence it does indeed improve our productivity. As I do see that the generated code in this
+repo is not terrible. It needs a lot of fixes but also the stuff that is ok/trivial is pretty cleanly executed.
+But as far as I see it we'll need proper computer scientists for many years to come to actually keep everything working properly...
